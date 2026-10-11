@@ -1,0 +1,18 @@
+{
+  "bundleId": "com.yourcompany.videospeedcontroller",
+  "extensionBundleId": "com.yourcompany.videospeedcontroller.Extension",
+  "teamId": "YOUR_TEAM_ID",
+  "sku": "videospeedcontroller",
+  "appName": "Video Speed Controller",
+  "primaryCategory": "Utilities",
+  "secondaryCategory": "Productivity",
+  "copyright": "Copyright © 2026 YOUR NAME. Based on MIT-licensed videospeed by Ilya Grigorik.",
+  "supportUrl": "https://github.com/YOUR_GITHUB/videospeed/issues",
+  "marketingUrl": "https://github.com/YOUR_GITHUB/videospeed",
+  "privacyPolicyUrl": "https://YOUR_DOMAIN/privacy/videospeed-controller.html",
+  "price": "Free",
+  "ageRating": "4+",
+  "platforms": ["macOS"],
+  "minimumMacOS": "13.0",
+  "notes": "Copy this file to store/config.json and fill in your Apple Developer Team ID + URLs before packaging for App Store Connect."
+}

@@ -1,0 +1,42 @@
+=== App Store Connect — English (U.S.) copy ===
+
+Name (30 chars max):
+Video Speed Controller
+
+Subtitle (30 chars max):
+HTML5 playback speed control
+
+Promotional Text (170 chars, optional):
+Speed up lectures, podcasts, and any HTML5 video in Safari — fine-grained control, custom shortcuts, and per-site rules.
+
+Description:
+Video Speed Controller gives you fine-grained control over HTML5 video and audio in Safari — on YouTube, course sites, podcasts, news players, and local files.
+
+Features:
+• Speed from 0.07× to 16× with configurable steps
+• Keyboard shortcuts (fully remappable): S/D slower/faster, R reset, Z/X seek, G preferred speed, V show/hide, M/J mark/jump
+• On-page speed overlay you can drag and restyle
+• Remember last speed (optional) and per-site default speeds
+• Speed fightback when a site tries to reset playback rate
+• Works with both video and audio elements
+
+After installing: open the app, enable the extension in Safari Settings → Extensions, then set Website Access to All Websites. Reload open tabs.
+
+This app contains a Safari Web Extension. It does not collect personal data. Settings stay on your device (and in Safari/iCloud extension storage if you use sync).
+
+Based on the open-source videospeed project (MIT License) by Ilya Grigorik.
+
+Keywords (100 chars, comma-separated, no spaces after commas preferred in ASC):
+video,speed,playback,youtube,html5,safari,controller,faster,podcast,lecture
+
+What's New (for 0.11.1):
+Initial Mac App Store release of Video Speed Controller for Safari — full shortcut set, per-site rules, and Safari-friendly playback above 2×.
+
+Support URL:
+(fill from store/config.json)
+
+Marketing URL:
+(fill from store/config.json)
+
+Privacy Policy URL:
+(fill from store/config.json — REQUIRED)

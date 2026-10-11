@@ -1,0 +1,29 @@
+.DS_Store
+.idea
+
+# Harness
+.pi
+.claude
+.cursor
+.agent
+local
+AGENTS*.md
+
+# Build artifacts
+dist
+dist-safari
+release
+tests/e2e/screenshots
+node_modules
+coverage
+
+# App Store secrets / local publisher identity
+store/config.json
+store/screenshots/*.png
+store/screenshots/*.jpg
+!store/screenshots/.gitkeep
+
+# TLC model-checker artifacts (specs/)
+specs/states/
+specs/*_TTrace_*.tla
+specs/*_TTrace_*.bin

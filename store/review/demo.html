@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VSC App Review Demo</title>
+    <style>
+      body {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        max-width: 720px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      video,
+      audio {
+        width: 100%;
+        background: #111;
+      }
+      code {
+        background: #eee;
+        padding: 0.1em 0.35em;
+        border-radius: 4px;
+      }
+      ol {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Video Speed Controller — review demo</h1>
+    <p>
+      Enable the extension with <strong>Website Access → All Websites</strong>, reload this page,
+      play the media, then press <code>D</code> / <code>S</code>.
+    </p>
+    <video
+      controls
+      playsinline
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+    ></video>
+    <p style="margin-top: 1.5rem">Audio element:</p>
+    <audio
+      controls
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+    ></audio>
+    <h2>Expected</h2>
+    <ol>
+      <li>Faint speed overlay (e.g. <code>1.00</code>) on the video</li>
+      <li><code>D</code> increases speed; <code>S</code> decreases; <code>R</code> resets to 1×</li>
+      <li>Toolbar popup presets change speed on the active tab</li>
+    </ol>
+  </body>
+</html>
