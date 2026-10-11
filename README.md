@@ -1,13 +1,17 @@
-# [Install from Chrome Web Store][chrome-web-store-link]
+# Video Speed Controller for Safari
 
-[![Chrome Web Store][chrome-web-store-version]][chrome-web-store-link] [![Chrome Web Store Users][chrome-web-store-users-badge]][chrome-web-store-link] [![Chrome Web Store Users][chrome-web-store-stars]][chrome-web-store-link]
+Safari / macOS port of [igrigorik/videospeed](https://github.com/igrigorik/videospeed)
+(**v0.11.1**), the open-source Video Speed Controller extension. Same features and
+shortcuts as the upstream project, packaged for Safari instead of Chrome.
 
 **Video Speed Controller** gives you fine-grained control over any HTML5 video
 or audio element, on any site.
 
-## Safari (macOS)
+Upstream (Chrome): [github.com/igrigorik/videospeed](https://github.com/igrigorik/videospeed)
 
-Full Safari packaging of videospeed **v0.11.1**. See **[SAFARI.md](./SAFARI.md)**.
+## Install (macOS / Safari)
+
+See **[SAFARI.md](./SAFARI.md)** for full setup.
 
 ```sh
 npm install
@@ -85,11 +89,5 @@ for them to take effect.
 
 ## License
 
-(MIT License) - Copyright (c) 2014 Ilya Grigorik
-
-[chrome-web-store-version]: https://img.shields.io/chrome-web-store/v/nffaoalbilbmmfgbnbgppjihopabppdk?label=Chrome%20Web%20Store
-[chrome-web-store-users-badge]: https://img.shields.io/chrome-web-store/users/nffaoalbilbmmfgbnbgppjihopabppdk
-[chrome-web-store-stars]: https://img.shields.io/chrome-web-store/stars/nffaoalbilbmmfgbnbgppjihopabppdk
-[github-release-badge]: https://img.shields.io/github/v/release/igrigorik/videospeed
-[chrome-web-store-link]: https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk
-[github-release-link]: https://github.com/igrigorik/videospeed/releases
+(MIT License) — Copyright (c) 2014 Ilya Grigorik. This repository’s Safari packaging
+and related additions follow the same MIT terms.
